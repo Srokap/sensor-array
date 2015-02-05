@@ -1,13 +1,13 @@
 {
   "name": "sensor-array",
-  "version": "1.0.0-dev",
+  "version": "0.0.1",
   "description": "Basic I2C sensors handler and server",
   "main": "index.js",
   "scripts": {
     "debug": "sudo DEBUG=bmp085 node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Paweł Sroka",
+  "author": "Paweł Sroka <srokap@gmail.com>",
   "license": "BSD-3-Clause",
   "dependencies": {
     "binary": "^0.3.0",

@@ -22,8 +22,6 @@ var utils = require('./lib/utils')
 //  }, 500)
 //})
 
-
-
 compass.init(function(){
   setInterval(function(){
     compass.getReading(function(err, X, Y, Z){
